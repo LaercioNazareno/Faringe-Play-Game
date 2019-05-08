@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="800.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.NivelTresController">
+   <children>
+      <Button fx:id="nextLevelTwoBtn" layoutX="469.0" layoutY="711.0" mnemonicParsing="false" onAction="#nextLevelTwo" prefHeight="49.0" prefWidth="161.0" style="-fx-background-color: #8c52ff; -fx-background-radius: 24;" text="Concluído" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+      <Text fill="#8c52ff" layoutX="241.0" layoutY="90.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nomeie as Estruturas" wrappingWidth="412.0">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="600.0" fitWidth="928.0" layoutX="-13.0" layoutY="191.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/oie_Ys3Kijafa3cS.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="voltarBtn" layoutX="260.0" layoutY="710.0" mnemonicParsing="false" onAction="#voltar" prefHeight="49.0" prefWidth="161.0" style="-fx-background-color: #8c52ff; -fx-background-radius: 24;" text="voltar" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <TextField fx:id="epigloteField" layoutX="667.0" layoutY="220.0" prefHeight="28.0" prefWidth="196.0" />
+      <TextField fx:id="cartilagemTireoide" layoutX="667.0" layoutY="266.0" prefHeight="28.0" prefWidth="196.0" />
+      <TextField fx:id="cartilagemArytenoid" layoutX="666.0" layoutY="316.0" prefHeight="28.0" prefWidth="196.0" />
+      <TextField fx:id="cartilagemCricoid" layoutX="665.0" layoutY="367.0" prefHeight="28.0" prefWidth="196.0" />
+      <TextField fx:id="cartilagemConicular" layoutX="664.0" layoutY="411.0" prefHeight="28.0" prefWidth="196.0" />
+   </children>
+</AnchorPane>
